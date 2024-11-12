@@ -1,0 +1,98 @@
+.Card {
+  height: auto;
+  width: 350px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid #e2e2e2;
+}
+
+.Card div {
+  padding: 2px;
+}
+
+.userDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.userAvatar {
+  height: 35px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.userId {
+  color: #6a6f77;
+  font-weight: 400;
+
+}
+
+.tag {
+  width: 130px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: left;
+  gap: 5px;
+  align-items: center;
+  font-weight: 300;
+  color: #6a6f77;
+
+}
+
+.warnning {
+  border-radius: 5px;
+  border: 1px solid #dde0e8;
+  background-color: #ffffff;
+  width: 24px;
+  height: auto;
+  display: inline;
+}
+
+.tagcontainer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.dot {
+  height: 16px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.title1 {
+  font-weight: 450;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 8px;
+}
+
+.title2 {
+  font-weight: 450;
+  margin-top: -25px;
+}
+
+.circle1 {
+  position: relative;
+  top: -15px;
+  left: 25px;
+  right: 0px;
+  width: 5px;
+  height: 5px;
+  background-color: #a4a6ac;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+}
+
+.circle2 {
+  width: 8px;
+  height: 8px;
+  background-color: #b3b4b9;
+  border-radius: 50%;
+}

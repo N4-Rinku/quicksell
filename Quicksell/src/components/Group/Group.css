@@ -1,0 +1,49 @@
+.groupContainer
+{
+ display: inline;
+ width: 400px;
+}
+
+.groupNav {
+    height: 48px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.groupAvtar
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.navLeft
+{
+    height: 48px;
+    padding-left: 30px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    align-items: center;
+}
+
+.navRigth{
+    font-size: 30px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    }
+.smallCircle {
+        margin-top: 8px;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background-color: rgb(163, 162, 162);
+        display: inline;
+}
+.grouptitle
+{
+    font-weight: 500;
+}
